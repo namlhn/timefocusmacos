@@ -1,6 +1,6 @@
 # Focus
 
-A native macOS focus timer built with Swift and SwiftUI. Choose a 25, 45, or 60-minute focus session, take a five-minute break, and track your daily goal. Focus keeps running in the menu bar when its window is closed.
+A native macOS focus timer built with Swift and SwiftUI. Choose a 25, 45, or 60-minute preset or adjust focus duration from 1 to 240 minutes, take a five-minute break, manage a local task list, and track your daily goal. Changing duration resets the current paused timer. Focus keeps running in the menu bar when its window is closed.
 
 ## Requirements
 
