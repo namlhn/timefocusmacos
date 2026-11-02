@@ -1,0 +1,7 @@
+build/
+.DS_Store
+Assets/AppIcon.iconset/
+Focus-arm64
+Focus-x86_64
+
+/work/
