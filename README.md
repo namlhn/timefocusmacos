@@ -15,4 +15,4 @@ A native macOS focus timer built with Swift and SwiftUI. Choose a 25, 45, or 60-
 
 The script creates a universal Intel and Apple Silicon app at `build/Focus.app` and a distributable archive at `build/Focus-macOS.zip`. It uses an ad-hoc signature, so macOS may require you to explicitly open the app through Finder the first time. The app is not notarized.
 
-Focus stores its session history and preferences locally using UserDefaults. Allow notifications when prompted. Focus must remain running to alert you when a session ends; closing its window leaves it accessible in the menu bar, while **Quit Focus** stops it.
+Focus stores its session history and preferences locally using UserDefaults. Focus shows an on-screen alert and plays a sound when a session ends, and reminds you to stand up and move every 20 minutes during a focus session. The timer continues during reminders; pause it if you want to take a longer break. Focus must remain running to show alerts; closing its window leaves it accessible in the menu bar, while **Quit Focus** stops it.
